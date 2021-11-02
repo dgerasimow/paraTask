@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         
         let userSettings = UserSettings(notificationSettings: NotificationSettings(isUsePhoneNumber: false, isUseEmail: false, isUseApp: false), authorizationSettings: AuthorizationSettings(isUseFaceID: false, isAutoEnter: false, controlQuestion: "aa?"))
         
-        let encoder = JSONEncoder()
         
         let encodedSettings = try? JSONEncoder().encode(userSettings)
         userDefaults.set(encodedSettings, forKey: UserDefaultsKey.settings)

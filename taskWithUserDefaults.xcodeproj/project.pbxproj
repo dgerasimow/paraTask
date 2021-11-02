@@ -13,6 +13,7 @@
 		EB0592762731964400114405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0592742731964400114405 /* Main.storyboard */; };
 		EB0592782731964500114405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0592772731964500114405 /* Assets.xcassets */; };
 		EB05927B2731964500114405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0592792731964500114405 /* LaunchScreen.storyboard */; };
+		EB0592832731975300114405 /* UserAppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0592822731975300114405 /* UserAppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB0592772731964500114405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB05927A2731964500114405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB05927C2731964500114405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0592822731975300114405 /* UserAppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EB0592772731964500114405 /* Assets.xcassets */,
 				EB0592792731964500114405 /* LaunchScreen.storyboard */,
 				EB05927C2731964500114405 /* Info.plist */,
+				EB0592822731975300114405 /* UserAppSettings.swift */,
 			);
 			path = taskWithUserDefaults;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0592732731964400114405 /* ViewController.swift in Sources */,
+				EB0592832731975300114405 /* UserAppSettings.swift in Sources */,
 				EB05926F2731964400114405 /* AppDelegate.swift in Sources */,
 				EB0592712731964400114405 /* SceneDelegate.swift in Sources */,
 			);
